@@ -8,7 +8,7 @@ module "vpc" {
 
 
 
-  azs            = ["us-east-1a", "us-east-1b", "us-east-1c"]
+  azs            = ["us-west-2a", "us-west-2b", "us-west-2c"]
   public_subnets = ["10.2.0.0/24","10.2.1.0/24","10.2.2.0/24"]
   # private_subnets  = ["10.0.10.0/24","10.0.20.0/24","10.0.30.0/24"]
 
